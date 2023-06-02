@@ -1,0 +1,9 @@
+**** QInputAPI ***
+
+autogrow  -> input alanını dolruruken satır dolduğunda alta geçer
+
+
+**** QBtnAPI ***
+
+:disabled ->  
+
