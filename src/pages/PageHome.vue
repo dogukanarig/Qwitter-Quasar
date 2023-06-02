@@ -25,8 +25,6 @@
     <q-separator size="10px" color="grey-2" class="divider" />
 
     <q-list>
-
-
       <q-item class="q-py-md">
         <q-item-section avatar top>
           <q-avatar size="xl">
@@ -51,13 +49,42 @@
             architecto
             enim iusto harum non.
           </q-item-label>
+          <div class="qweet-icons row justify-between q-mt-sm">
+            <q-btn 
+            flat 
+            round 
+            size="sm"
+            color="grey" 
+            icon="fa-regular fa-comment" 
+            />
+            <q-btn 
+            flat 
+            round 
+            size="sm"
+            color="grey" 
+            icon="fas fa-retweet" 
+            />
+            <q-btn 
+            flat 
+            round 
+            size="sm"
+            color="grey" 
+            icon="far fa-heart" 
+            />
+            <q-btn 
+            flat 
+            round 
+            size="sm"
+            color="grey" 
+            icon="fas fa-trash" 
+            />
+          </div>
         </q-item-section>
 
         <q-item-section side top>
           1 min ago
         </q-item-section>
       </q-item>
-
     </q-list>
 
   </q-page>
@@ -80,4 +107,6 @@ const newQweetContent = ref("")
   border-color: $grey-4 
 .qweet-content
   white-space: pre-line
+.qweet-icons
+  margin-left: -5px
 </style>
